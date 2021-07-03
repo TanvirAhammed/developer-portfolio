@@ -3,6 +3,7 @@ body{
 
     font-family: 'Bona Nova', serif;
     margin: 0%;
+    
 }
 h1{
     font-size: 50px;
@@ -24,7 +25,7 @@ section{
 }
 .half-width img{
 
-    width: 70%;
+    width: 80%;
 }
 .link-button{
     text-decoration: none;
@@ -41,4 +42,16 @@ section{
 
     background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
+}
+section{
+
+    display: flex;
+    margin-bottom:140px ;
+}
+
+.dream-big{
+
+    background-image: url(Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
