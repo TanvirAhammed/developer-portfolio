@@ -7,6 +7,7 @@ body{
 }
 h1{
     font-size: 50px;
+    
   
 }
 .class-ornz{
@@ -26,6 +27,9 @@ section{
 .half-width img{
 
     width: 80%;
+    padding-left: 2%;
+    box-shadow: yellowgreen;
+    
 }
 .link-button{
     text-decoration: none;
@@ -43,10 +47,10 @@ section{
     background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
 }
-section{
+.flexible-container{
 
     display: flex;
-    margin-bottom:140px ;
+    margin-bottom:150px ;
 }
 
 .dream-big{
@@ -54,4 +58,35 @@ section{
     background-image: url(Image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiance-item{
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px greenyellow;
+    padding-left: 20px;
+    border-radius: 6px;
+    border-left: 6px solid;
+}
+.experiance-area{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-exprience{
+
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue,red);
+    border-image-slice: 1;
+}
+#Baby{
+
+    
+    border-left: 7px solid ;
+    border-image: linear-gradient(rgb(255, 123, 0),red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
